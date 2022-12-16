@@ -119,5 +119,25 @@ public class C01_Locators {
         email.sendKeys("Karl relative xpath konusunu gayet basirili tamamladi");
     }
 
+    @Test
+    public void multipleAttributeXpath(){
+
+        WebElement email = driver.findElement(By.xpath("//input[@class=\"input__input\"][@id=\"session_key\"]"));
+        email.sendKeys("karl hoca relative xpath konusunu gayet başarılı tamamladı");
+
+    }
+
+//tagname[@attribute='value']
+//*[@attribute_name='attribute_value']
+
+
+    @Test
+    public void andOrXpath(){
+
+        WebElement email = driver.findElement(By.xpath("//input[@class=\"input__input\" and @id=\"session_key\"]"));
+        email.sendKeys("karl hoca  and-or xpath konusunu gayet başarılı tamamladı");
+
+    }
+
 
 }
