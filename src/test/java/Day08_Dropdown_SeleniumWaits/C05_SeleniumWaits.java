@@ -18,7 +18,7 @@ public class C05_SeleniumWaits extends BaseTest {
         driver.get("https://demoqa.com/elements");
 
         //Adım 1--> Webdrivverwait objemiz oluşturuldu
-        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(20));
 
         WebElement category=driver.findElement(By.xpath("(//div[@class='icon'])[2]"));
 
