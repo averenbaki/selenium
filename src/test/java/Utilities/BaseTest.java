@@ -1,5 +1,6 @@
 package Utilities;
 
+import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
@@ -17,6 +18,7 @@ public class BaseTest {//abstract
       Dolayısıyla oluşturduğumuz driver variable'i için protected access modifier seçiyoruz.*/
     protected WebDriver driver;
     protected Actions actions;
+    protected Faker faker;
 
     @Before
     public void setup(){
@@ -26,6 +28,7 @@ public class BaseTest {//abstract
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
         actions=new Actions(driver);
+        Faker faker=new Faker();
     }
 
     @After
