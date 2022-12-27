@@ -1,4 +1,4 @@
-package Day11_JSEScroll_Cookies_Files;
+package Day11_JSEScroll_Cookies;
 
 import Utilities.BaseTest;
 import org.junit.Test;

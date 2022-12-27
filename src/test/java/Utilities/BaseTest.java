@@ -28,7 +28,7 @@ public class BaseTest {//abstract
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
         actions=new Actions(driver);
-        Faker faker=new Faker();
+        faker=new Faker();
     }
 
     @After

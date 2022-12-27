@@ -1,11 +1,9 @@
-package Day11_JSEScroll_Cookies_Files;
+package Day11_JSEScroll_Cookies;
 
 import Utilities.BaseTest;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
-import org.openqa.selenium.WebElement;
 
 import java.util.Set;
 
