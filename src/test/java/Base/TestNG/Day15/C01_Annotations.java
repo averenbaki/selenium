@@ -1,8 +1,8 @@
-package Base.Test.Day01_AnnotationsTestNG;
+package Base.TestNG.Day15;
 
 import org.testng.annotations.*;
 
-public class C01_TestNGAnnotations {
+public class C01_Annotations {
     //@Before/After Suite
     //@Before/After Test
     //@Before/After Class

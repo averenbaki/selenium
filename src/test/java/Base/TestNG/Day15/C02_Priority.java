@@ -1,4 +1,4 @@
-package Base.Test.Day01_AnnotationsTestNG;
+package Base.TestNG.Day15;
 
 import org.testng.annotations.Test;
 
@@ -7,7 +7,8 @@ public class C02_Priority {
 
     // TestNG (default) olarak @Test annotationları alfabetik sıraya göre execute eder
     // TestNG prioritysinin sayi degeri en az olan testi ilk once calistirir
-    // Priporty attribute u icin negatif degerler kullanilabilir
+    // Priority attribute u icin negatif degerler kullanilabilir
+    // TestNG default(varsayılan) priority=0 dır
 
 
 
