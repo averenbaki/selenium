@@ -26,11 +26,14 @@ public class C07_Groups {
 
     }
 
-    @Test(groups = {"regression", "smoke"})
+    @Test(groups = {"smoke","regression"})
     public void checkoutTest(){
 
     }
 
+    @Test(groups = {"smoke"})
+    public void smokeTest(){
 
+    }
 
 }

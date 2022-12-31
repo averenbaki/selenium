@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ACER/IdeaProjects/TestNGSelenium">
+        <classes>
+            <class name="Base.TestNG.Day15.C01_Annotations">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="Base.TestNG.Day15.C02_Priority">
+                <methods>
+                    <include name="test02"/>
+                    <include name="test04"/>
+                    <include name="test01"/>
+                    <include name="test03"/>
+                </methods>
+            </class>
+            <class name="Base.TestNG.Day15.C03_DependsOn">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="Base.TestNG.Day15.C04_Enabled">
+                <methods>
+                    <include name="enabledTest"/>
+                    <include name="disabledTest"/>
+                </methods>
+            </class>
+            <class name="Base.TestNG.Day15.C05_TimeOut">
+                <methods>
+                    <include name="passedTest"/>
+                    <include name="timedOutTest"/>
+                    <include name="timedOutTest2"/>
+                </methods>
+            </class>
+            <class name="Base.TestNG.Day15.C06_Description">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="homePageTest"/>
+                </methods>
+            </class>
+            <class name="Base.TestNG.Day15.C09_AssertionType">
+                <methods>
+                    <include name="hardAssertion"/>
+                    <include name="softAssertion"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

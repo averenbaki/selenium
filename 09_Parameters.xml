@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Suite">
+
+<test name="Parameters Test">
+    <parameter name="İsim" value="Eren"></parameter>
+    <classes>
+        <class name="Base.TestNG.Day16.C01_Parameters"></class>
+    </classes>
+</test>
+
+
+</suite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IncludeExclude Method Group Test Suite">
+   
+
+    <test name="IncludeExclude Groups Method Test">
+        <groups>
+            <run>
+                <include name="smoke">
+                    
+                </include>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="Base.TestNG.Day15.C07_Groups">
+                <methods>
+                    <exclude name="smokeTest"></exclude>
+                    <!--test ismini yazarak test dışı bıraktık-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

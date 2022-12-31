@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Browser Parameters Example">
+<test name="Browser Parameters Example">
+
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="aranacakKelime" value="Java"></parameter>
+    <classes>
+        <class name="Base.TestNG.Day16.C03_TestNGParametersSeleniumExample">
+
+        </class>
+    </classes>
+
+</test>
+
+    <test name="Browser Parameters Selenium">
+
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="aranacakKelime" value="Selenium"></parameter>
+        <classes>
+            <class name="Base.TestNG.Day16.C03_TestNGParametersSeleniumExample">
+
+            </class>
+        </classes>
+
+    </test>
+
+
+
+</suite>

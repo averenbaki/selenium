@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IncludeExclude Group Test Suite">
+    <groups>
+        <run>
+            <include name="smoke"></include>
+            <exclude name="regression"></exclude>
+        </run>
+    </groups>
+
+    <test name="IncludeExclude Groups Test">
+        <classes>
+            <class name="Base.TestNG.Day15.C07_Groups"></class>
+        </classes>
+    </test>
+
+
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Test Suite">
+    
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Base.TestNG.Day15.C07_Groups"></class>
+        </classes>
+    </test>
+    <test name="Regression Test">
+        <groups>
+            <run>
+                <include name="regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="Base.TestNG.Day15.C07_Groups"></class>
+        </classes>
+    </test>
+    
+    
+</suite>
