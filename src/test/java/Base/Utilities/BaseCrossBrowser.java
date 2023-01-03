@@ -14,7 +14,7 @@ public class BaseCrossBrowser {
     protected Actions actions;
     @BeforeMethod
     @Parameters("browser")
-    public void setup(String browser) {
+    public void setup(@Optional ("chrome") String browser) {
         switch (browser){
 
             case "chrome":

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Test Suite" parallel="classes">
+
+    <test name="Paralel Test 01">
+        <classes>
+            <class name="Base.TestNG.Day15.C09_AssertionType"></class>
+            <class name="Base.TestNG.Day15.C03_DependsOn"></class>
+            <class name="Base.TestNG.Day15.C05_TimeOut"></class>
+        </classes>
+    </test>
+
+    <test name="Paralel Test 02">
+        <classes>
+            <class name="Base.TestNG.Day15.C09_AssertionType"></class>
+            <class name="Base.TestNG.Day15.C03_DependsOn"></class>
+            <class name="Base.TestNG.Day15.C05_TimeOut"></class>
+        </classes>
+    </test>
+
+    <test name="Paralel Test 03">
+        <classes>
+            <class name="Base.TestNG.Day15.C09_AssertionType"></class>
+            <class name="Base.TestNG.Day15.C03_DependsOn"></class>
+            <class name="Base.TestNG.Day15.C05_TimeOut"></class>
+        </classes>
+    </test>
+
+
+</suite>

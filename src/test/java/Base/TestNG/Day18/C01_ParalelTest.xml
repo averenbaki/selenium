@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Paralel Test Suite">
+
+    <test name="Paralel Test - Chrome" parallel="methods">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="Base.TestNG.Day18.C01_ParalelTest"></class>
+        </classes>
+
+    </test>
+
+
+
+</suite>
