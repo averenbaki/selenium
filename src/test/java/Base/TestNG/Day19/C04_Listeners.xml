@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener Test Suite"  >
+    <!--<listeners>
+        <listener class-name="Base.TestNG.Day19.C02_ITestListener"></listener>
+    </listeners>-->
+
+    <test name="Listener Test ">
+ 
+        <classes>
+            <class name="Base.TestNG.Day19.C03_UseLİstener"></class>
+        </classes>
+    </test>
+    
+
+</suite>
