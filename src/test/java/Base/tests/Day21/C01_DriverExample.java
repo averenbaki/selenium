@@ -1,4 +1,4 @@
-package Base.tests;
+package Base.tests.Day21;
 
 import Base.utilities.Driver;
 import org.openqa.selenium.WebDriver;

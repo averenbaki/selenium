@@ -1,0 +1,22 @@
+package Base.pages.Day22;
+
+import Base.utilities.Driver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
+
+public class C02_SauceDemoHOMEpage {
+
+    public C02_SauceDemoHOMEpage(){
+        PageFactory.initElements(Driver.getDriver(), this);
+    }
+
+
+    @FindBy(tagName = "select")
+    public WebElement filterDropdown;
+
+    @FindBy(className = "inventory_item")
+    public List<WebElement> products;
+}

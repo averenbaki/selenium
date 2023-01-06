@@ -1,4 +1,4 @@
-package Base.tests;
+package Base.tests.Day21;
 
 import Base.utilities.ConfigReader;
 import Base.utilities.Driver;
